@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+p {
+    background-color: red;
+    margin-top: 20px ;
+    margin-right: 15;    
+    margin-left: 20;
+    margin-bottom: 10;
+}
+    /* figure {
+        background-color: silver;
+        text-align: center;
+    } */

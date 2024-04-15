@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Rubik+Scribble&display=swap');
+body{
+    background-color: silver;
+    
+}
+h1, h2 {
+    font-family: "Cantarell", system-ui;
+
+}
+p {
+    font-size: 20px;
+}

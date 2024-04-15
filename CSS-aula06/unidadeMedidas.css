@@ -1,0 +1,17 @@
+html{
+    font-size: 25px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.box1 {
+font-size: 2rem;
+/* 50px */
+}
+
+.box2 {
+font-size: 1em;
+/* 50 */
+}

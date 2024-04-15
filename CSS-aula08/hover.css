@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: greenyellow;
+}
+nav {
+    background-color: aqua;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+}
+   nav a {
+        text-decoration: none;
+        color: red;
+        font-size: 2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        display: inline-block;
+    }
+
+    nav >:hover {
+        color: blue;
+        background-color: orange;
+}
+
+input:focus {
+    background-color: purple;
+    color: saddlebrown;
+}
+a:active {
+    /* text-decoration: none; */
+    color: brown;
+    font-size: 2em;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}

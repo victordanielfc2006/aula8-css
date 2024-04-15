@@ -1,0 +1,19 @@
+* {
+    margin: 10px;
+}
+
+.box1 {
+
+    border: 15px;
+    background-color: silver;
+    height: 400px;        
+    width: 400px;
+}
+
+.box2 {
+
+    border: 25px rebeccapurple;
+    background-color: cadetblue;
+    height: 300px;
+    width: 400px;
+}

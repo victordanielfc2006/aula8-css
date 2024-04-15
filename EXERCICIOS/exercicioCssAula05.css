@@ -1,0 +1,11 @@
+body {
+    background-image: url('57e4b2d8ea33b1da11fb0940e717a1d1-removebg-preview (1).png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    text-align: justify;
+}
+h1 {
+    background-color: aqua;
+}
