@@ -1,0 +1,28 @@
+.container {
+    grid-template-columns: (4, 1fr);
+    grid-template-rows: (4, 1fr);
+}
+.box1 {
+    background-color: red;
+    height: 250px;
+}
+.box2 {
+    background-color: green;
+    height: 175px;
+}
+.box3 {
+    background-color: turquoise;
+    height: 100px;
+}
+.box4 {
+    background-color: blue;
+    height: 250px;
+}
+.box5 {
+    background-color: saddlebrown;
+    height: 100px;
+}
+.box6 {
+    background-color: purple;
+    height: 175px;
+}

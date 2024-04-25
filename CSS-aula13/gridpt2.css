@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid;
+    display: grid;
+    height: 800px;
+    grid-template-columns:(4, 1fr);
+    grid-template-rows: (4, 1fr);
+
+/* justify-items: end;
+align-items: end; */
+/* place-items: center center; */
+/* justify-content: center;
+align-content: end; */
+/* place-content:center center; */
+
+}
+.box1 {
+    background-color: blue;
+    grid-column-start:1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

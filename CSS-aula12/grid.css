@@ -1,0 +1,43 @@
+.container {
+    background-color: aqua;
+    height: 100vh    ;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:repeat(6,1fr);
+    grid-template-areas: 
+    "Campo1 Campo1 Campo1 Campo1 Campo1 Campo1"
+    "Campo2 Campo2 Campo2 Campo2 Campo2 Campo2"
+    "Campo3 Campo3 Campo3 Campo3 Campo3 Campo3"
+    "Campo4 Campo4 Campo4 Campo4 Campo4 Campo4"
+    "Campo5 Campo5 Campo5 Campo5 Campo5 Campo5"
+    "Campo6 Campo6 Campo6 Campo6 Campo6 Campo6";
+    gap: 5px;
+}
+div {
+.box1 {
+    grid-area: Campo1;
+    background-color: blue;
+}
+.box2 {
+    grid-area:Campo2;
+    background-color: red;
+}
+.box3 {
+    grid-area:Campo3;
+    background-color: yellow;
+}
+.box4 {
+    grid-area:Campo4;
+    background-color: orange;
+}
+.box5 {
+    grid-area: Campo5;
+    background-color: black;
+}
+.box6 {
+    grid-area: Campo6;
+    background-color: green;
+}
+}

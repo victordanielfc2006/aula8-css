@@ -1,0 +1,32 @@
+.box { 
+    
+}
+
+.container {
+    /* overflow: auto; */
+    background-color: silver;
+    border:1px solid;
+    height:600px;
+    width: 600px;
+    display:flex;
+    flex-direction:row;
+    justify-content: ;
+    flex-wrap: wrap;
+    /* flex-flow: column nowrap; */
+    justify-content: center;
+    align-items:center;
+}
+
+
+.box1 { background-color: red;
+    height: 100px;
+    width: 100px;   
+}
+.box2 { background-color: yellow;
+        height: 100px;
+        width: 100px;
+}
+.box3 { background-color: green;
+        height: 100px;
+        width: 100px;
+}
