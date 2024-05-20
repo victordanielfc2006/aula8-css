@@ -1,14 +1,24 @@
-function calculoIMC(peso, altura) {
-    let imc
-    let = peso/(altura*2)
-    if (imc < 16.9) {
-        console.log("Você está muito abaixo do peso !");
-    }   else if (imc = 17 && imc <= 18.4) {
-        console.log("Você está abaixo do peso !");
-        console.log(imc);
-    } else if (imc = 18.5 <= 24.9) {
-    alert("Você está no peso ideal !")
-    }
+function calculoImc(peso, altura) {
+    let imc = peso/(altura*altura)
+    let msg
+    if (imc > 40) {
+        msg = "Obesidade grau 3"
+        } else if (imc > 35) {
+        msg = "Obesidade grau 2"
+        } else if (imc > 30) {
+        msg = "Obesidade grau 1"
+        } else if(imc > 25)  {
+        msg = "Acima do peso"
+        } else if (imc > 18.5) {
+        msg = "Peso normal"
+        } else if (imc > 17) {
+            msg = "Abaixo do peso"
+        } else if (
+            msg = "Muito abaixo do peso"
+        )
+        return msg
 }
-
-// else if (imc = 18.5 && imc <= 24.4) {}
+alert("Vamos calcular o IMC")
+let peso = Number(prompt("Qual o seu peso?"))
+let altura = Number(prompt("Qual a sua altura?"))
+alert(calculoImc(peso, altura))
